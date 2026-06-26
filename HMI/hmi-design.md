@@ -100,7 +100,8 @@ Allows authorized users (Engineer+) to issue commands to the PLC.
 
 Real-time process visualization available to all logged-in users.
 
-![HMI Integrated Real-time Process Monitoring Screen Layout](../assets/HMI Process Monitoring Interface.png)
+![HMI Integrated Real-time Process Monitoring Screen Layout](../assets/hmi_monitoring_Interface.png)
+
 
 **Elements:**
 - Animated conveyor belt (bottle moving → stopping → filling → moving)
