@@ -15,7 +15,7 @@ An integrated **HMI panel** extends the system with a user-friendly interface fo
 
 The system is designed to fill bottles automatically up to a specified level. When started, the conveyor belt moves bottles until a position sensor detects one, prompting the motor to stop. A valve then opens to fill the bottle. Once the level sensor detects that the desired fill level is reached, the valve closes and the conveyor resumes operation.
 
-![System Architecture Blueprint Overview](../assets/IMAGE_1.png)
+![System Architecture Blueprint Overview](../assets/system_overview.png)
 ---
 
 ## 3. Objectives
@@ -88,6 +88,7 @@ The first press of START energizes the motor. A self-latch (using Q0.0 parallel 
 - The **position sensor** contact is placed as **NC** in the rung: when the sensor fires (I1.4 = 1), the NC contact opens and the motor stops.
 - The **stop button** (NC) de-energizes the rung when pressed.
 - The **valve** (NC) interlock prevents motor and valve from operating simultaneously.
+  ![Complete TIA Portal S7-1200 Ladder Logic Program](../assets/ladder_logic_networks.png)
 
 ### Network 2 — Valve Control
 
@@ -146,7 +147,7 @@ The HMI is designed in **TIA Portal WinCC** and communicates with the S7-1200 ov
 | Level_alarm | INT | MW26 | Level alarm |
 | position_alarm | INT | MW28 | Position alarm |
 | Valve_alarm | INT | MW30 | Valve alarm |
-
+![WinCC Runtime Welcome Screen Interface](../assets/hmi_home_screen.png)
 ---
 
 ## 9. Sensors Used
