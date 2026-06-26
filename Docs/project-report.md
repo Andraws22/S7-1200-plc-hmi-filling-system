@@ -147,6 +147,8 @@ The HMI is designed in **TIA Portal WinCC** and communicates with the S7-1200 ov
 | Level_alarm | INT | MW26 | Level alarm |
 | position_alarm | INT | MW28 | Position alarm |
 | Valve_alarm | INT | MW30 | Valve alarm |
+
+
 ![WinCC Runtime Welcome Screen Interface](../assets/hmi_home_screen.png)
 ---
 
