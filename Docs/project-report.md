@@ -15,6 +15,7 @@ An integrated **HMI panel** extends the system with a user-friendly interface fo
 
 The system is designed to fill bottles automatically up to a specified level. When started, the conveyor belt moves bottles until a position sensor detects one, prompting the motor to stop. A valve then opens to fill the bottle. Once the level sensor detects that the desired fill level is reached, the valve closes and the conveyor resumes operation.
 
+![System Architecture Blueprint Overview](../assets/IMAGE_1.png)
 ---
 
 ## 3. Objectives
