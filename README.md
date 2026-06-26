@@ -176,6 +176,8 @@ An **HMI panel** provides operator control, real-time monitoring, access-level m
 
 ### Access Level Matrix
 
+![TIA Portal WinCC Home Screen Layout](assets/hmi_home_screen.png)
+
 | Screen | Operator | Engineer | Administrator |
 |---|:---:|:---:|:---:|
 | Home | ✅ | ✅ | ✅ |
@@ -185,7 +187,6 @@ An **HMI panel** provides operator control, real-time monitoring, access-level m
 | Control | ❌ | ✅ | ✅ |
 | Settings | ❌ | ❌ | ✅ |
 
-![TIA Portal WinCC Control Screen Layout](assets/hmi_control_screen.png)
 ---
 
 ## Repository Structure
