@@ -55,7 +55,7 @@ The welcome/splash screen that appears on system startup.
 - **[Login]** button — the only navigation element available before authentication
 - No direct access to any functional screen is permitted from here
 
-  ![hmi_home_screen](../assets/hmi_home_screen.png)
+  ![hmi_home_screen.png](../assets/hmi_home_screen.png)
 
 ---
 
@@ -92,7 +92,7 @@ Allows authorized users (Engineer+) to issue commands to the PLC.
   - Motor: ON / OFF (reads `Q0.0`)
   - Valve: OPEN / CLOSED (reads `Q0.1`)
 
-![hmi_control_screen](../assets/hmi_control_screen.png)
+![hmi_control_screen.png](../assets/hmi_control_screen.png)
 
 ---
 
@@ -100,7 +100,7 @@ Allows authorized users (Engineer+) to issue commands to the PLC.
 
 Real-time process visualization available to all logged-in users.
 
-![HMI Process Monitoring Interface](../assets/hmi_control_screen.png)
+![HMI Process Monitoring Interface.png](../assets/hmi_control_screen.png)
 
 **Elements:**
 - Animated conveyor belt (bottle moving → stopping → filling → moving)
