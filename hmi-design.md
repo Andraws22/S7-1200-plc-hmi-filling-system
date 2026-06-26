@@ -92,7 +92,7 @@ Allows authorized users (Engineer+) to issue commands to the PLC.
   - Motor: ON / OFF (reads `Q0.0`)
   - Valve: OPEN / CLOSED (reads `Q0.1`)
 
-[../assets/hmi_control_screen.png](https://github.com/Andraws22/S7-1200-plc-hmi-filling-system/blob/678f8aae45470e62552edc6f3d2279590ab42baa/assets/hmi_home_screen.png)
+[../assets/hmi_control_screen.png](assets/hmi_control_screen.png)
 
 ---
 
@@ -100,7 +100,7 @@ Allows authorized users (Engineer+) to issue commands to the PLC.
 
 Real-time process visualization available to all logged-in users.
 
-[assets/HMI Process Monitoring Interface.png](https://github.com/Andraws22/S7-1200-plc-hmi-filling-system/blob/1ddc8695597471e99916736e4f4e166b1a501cc8/assets/HMI%20Process%20Monitoring%20Interface.png)
+[assets/HMI Process Monitoring Interface.png](assets/HMI Process Monitoring Interface.png)
 
 **Elements:**
 - Animated conveyor belt (bottle moving → stopping → filling → moving)
