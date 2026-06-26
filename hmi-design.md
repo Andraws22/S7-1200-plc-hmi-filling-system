@@ -55,7 +55,7 @@ The welcome/splash screen that appears on system startup.
 - **[Login]** button — the only navigation element available before authentication
 - No direct access to any functional screen is permitted from here
 
-  ![hmi_home_screen.png](../assets/hmi_home_screen.png)
+  ![hmi_home_screen.png](assets/hmi_home_screen.png)
 
 ---
 
