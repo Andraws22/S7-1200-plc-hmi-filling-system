@@ -55,7 +55,7 @@ The welcome/splash screen that appears on system startup.
 - **[Login]** button — the only navigation element available before authentication
 - No direct access to any functional screen is permitted from here
 
-  [![hmi_home_screen.png](assets/hmi_home_screen.png)](https://github.com/Andraws22/S7-1200-plc-hmi-filling-system/blob/1ddc8695597471e99916736e4f4e166b1a501cc8/assets/hmi_home_screen.png)
+![HMI Welcome Splash Screen Layout](../assets/hmi_home_screen.png)
 
 ---
 
@@ -92,7 +92,7 @@ Allows authorized users (Engineer+) to issue commands to the PLC.
   - Motor: ON / OFF (reads `Q0.0`)
   - Valve: OPEN / CLOSED (reads `Q0.1`)
 
-[![hmi_home_screen.png](https://github.com/Andraws22/S7-1200-plc-hmi-filling-system/blob/e2811a8a1089fa251644dcf66595df8f8a387613/assets/HMI%20Process%20Monitoring%20Interface.png)
+![HMI Main Simulation Control Panel Dashboard](../assets/hmi_control_screen.png)
 
 ---
 
@@ -100,7 +100,7 @@ Allows authorized users (Engineer+) to issue commands to the PLC.
 
 Real-time process visualization available to all logged-in users.
 
-[assets/HMI Process Monitoring Interface.png](assets/HMI Process Monitoring Interface.png)
+![HMI Integrated Real-time Process Monitoring Screen Layout](../assets/hmi_control_screen.png)
 
 **Elements:**
 - Animated conveyor belt (bottle moving → stopping → filling → moving)
