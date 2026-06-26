@@ -51,7 +51,7 @@ An **HMI panel** provides operator control, real-time monitoring, access-level m
 │   MOTOR      │                       │   (Solenoid)    │
 └─────────────┘                       └─────────────────┘
 ```
-
+![Physical System Blueprint Overview](assets/system_overview.png)
 ### Sequence of Operation
 
 ```
@@ -185,6 +185,7 @@ An **HMI panel** provides operator control, real-time monitoring, access-level m
 | Control | ❌ | ✅ | ✅ |
 | Settings | ❌ | ❌ | ✅ |
 
+![TIA Portal WinCC Control Screen Layout](assets/hmi_control_screen.png)
 ---
 
 ## Repository Structure
